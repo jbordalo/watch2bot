@@ -9,7 +9,7 @@ YOUTUBE = 'https://www.youtube.com/watch?'
 
 load_dotenv()
 
-url = 'https://w2g.tv/rooms/create.json'
+url = 'https://api.w2g.tv/rooms/create.json'
 
 client = discord.Client()
 
