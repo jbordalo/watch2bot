@@ -11,7 +11,9 @@ load_dotenv()
 
 url = 'https://api.w2g.tv/rooms/create.json'
 
-client = discord.Client()
+intents = discord.Intents.default()
+intents.message_content = True
+client = discord.Client(intents=intents)
 
 
 def print_error():
